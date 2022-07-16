@@ -2,7 +2,7 @@
 
 def selection_sort(array):
     steps = 0
-    minimum = 0
+    minimum = None
     for i in range(len(array)):
         minimum = i
         for j in range(i+1, len(array)):
